@@ -10,7 +10,7 @@ export default function DragDrop(
 ) {    
     const dropRef = useRef<HTMLDivElement>(null);
     const [isModalOpen, setIsModalOpen] = useState<boolean>(true);
-    const [isLoading,setLoading] = useState<boolean>(false)
+    const [_isLoading,setLoading] = useState<boolean>(false)
 
     pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
         "pdfjs-dist/build/pdf.worker.min.mjs",

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export default function Modal({children,open}:{children: Readonly<React.ReactNode>,open: boolean}){
     // Modal Open/Close State
